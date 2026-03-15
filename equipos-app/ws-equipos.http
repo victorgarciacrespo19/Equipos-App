@@ -1,0 +1,38 @@
+### GET /equipos
+GET http://localhost/equipos
+Accept: application/json
+
+### GET /equipos/{id}
+GET http://localhost/equipos/13
+Accept: application/json
+
+### POST /equipos
+POST http://localhost/equipos
+Content-Type: application/json
+Accept: application/json
+
+{
+  "nombre": "Leganes",
+  "ciudad": "Leganes",
+  "estadio": "Estadio Municipal Butarque",
+  "fundacion": "1928",
+  "presupuesto": 41000000,
+  "escudo": "logo leganes"
+}
+
+### PUT /equipos/{id}
+PUT http://localhost/equipos/21
+Content-Type: application/json
+Accept: application/json
+
+{
+  "nombre": "Leganes",
+  "ciudad": "Madrid",
+  "estadio": "Estadio Municipal Butarque",
+  "fundacion": "1927",
+  "presupuesto": 41000000,
+  "escudo": "logo leganes"
+}
+
+### DELETE /equipos/{id}
+DELETE http://localhost/equipos/21

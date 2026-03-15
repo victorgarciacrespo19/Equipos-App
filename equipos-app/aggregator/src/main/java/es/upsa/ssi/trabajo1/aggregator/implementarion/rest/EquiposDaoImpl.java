@@ -1,0 +1,30 @@
+package es.upsa.ssi.trabajo1.aggregator.implementarion.rest;
+
+import es.upsa.ssi.trabajo1.aggregator.adapters.output.rest.EquiposDao;
+import es.upsa.ssi.trabajo1.aggregator.implementarion.rest.restapi.EquiposRestClient;
+import es.upsa.ssi.trabajo1.domain.entities.Equipo;
+import es.upsa.ssi.trabajo1.domain.exceptions.EquipoNotFoundAppException;
+import es.upsa.ssi.trabajo1.domain.exceptions.EquiposAppException;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
+import org.eclipse.microprofile.rest.client.inject.RestClient;
+
+import java.util.Optional;
+
+@ApplicationScoped
+public class EquiposDaoImpl implements EquiposDao
+{
+    @Inject
+    @RestClient
+    EquiposRestClient restClient;
+    @Override
+    public Optional<Equipo> findById(String id) throws EquiposAppException {
+        try
+        {
+            return Optional.of( restClient.findById(id) );
+        } catch (EquipoNotFoundAppException exception)
+        {
+            return Optional.empty();
+        }
+    }
+}

@@ -1,0 +1,22 @@
+
+### GET /contratos/{id}
+GET http://localhost/contratos/20
+Accept: application/json
+
+### GET /contratos/equipos/{id}
+GET http://localhost/contratos/equipos/5
+Accept: application/json
+
+### POST /contratos
+POST http://localhost/contratos
+Content-Type: application/json
+Accept: application/json
+
+{
+  "equipo": "8",
+  "jugador": "7",
+  "finContrato": "2029"
+}
+
+### DELETE /contratos/{id}
+DELETE http://localhost/contratos/81

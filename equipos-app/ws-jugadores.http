@@ -1,0 +1,35 @@
+### GET /jugadores
+GET http://localhost/jugadores
+Accept: application/json
+
+### GET /jugadores/{id}
+GET http://localhost/jugadores/46
+Accept: application/json
+
+### POST /jugadores
+POST http://localhost/jugadores
+Content-Type: application/json
+Accept: application/json
+
+{
+    "nombre": "Jan Virgilli",
+    "nacionalidad": "España",
+    "valorMercado": "2M",
+    "foto": "foto jan"
+}
+
+### PUT /jugadores/{id}
+PUT http://localhost/jugadores/81
+Content-Type: application/json
+Accept: application/json
+
+{
+  "nombre": "Jan Virgilli Tenas",
+  "nacionalidad": "España",
+  "valorMercado": "15M",
+  "foto": "foto jan"
+}
+
+### DELETE /jugadores/{id}
+DELETE http://localhost/jugadores/81
+

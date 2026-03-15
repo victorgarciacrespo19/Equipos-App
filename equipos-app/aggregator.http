@@ -1,0 +1,5 @@
+
+
+### GET /aggregator/contratos/equipos/{id}
+GET http://localhost/aggregator/contratos/equipos/13
+Accept: application/json
