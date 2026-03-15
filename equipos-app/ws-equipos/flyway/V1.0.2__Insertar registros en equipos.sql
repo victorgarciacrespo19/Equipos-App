@@ -1,0 +1,22 @@
+INSERT INTO equipos (id, nombre, estadio, ciudad, fundacion, presupuesto, escudo)
+VALUES
+    (nextval('seq_equipos'), 'Athletic Club', 'San Mamés', 'Bilbao', '1898', 120000000.0, 'https://assets.laliga.com/assets/2019/06/07/xsmall/athletic.png'),
+    (nextval('seq_equipos'), 'Atlético de Madrid', 'Riyadh Air Metropolitano', 'Madrid', '1903', 400000000.0, 'https://assets.laliga.com/assets/2024/06/17/xsmall/cbc5c8cc8c3e8abd0e175c00ee53b723.png'),
+    (nextval('seq_equipos'), 'CA Osasuna', 'El Sadar', 'Pamplona', '1920', 90000000.0, 'https://assets.laliga.com/assets/2019/06/07/xsmall/osasuna.png'),
+    (nextval('seq_equipos'), 'RC Celta', 'ABANCA Balaídos', 'Vigo', '1923', 90000000.0, 'https://assets.laliga.com/assets/2025/07/11/xsmall/0a796827f9e758d7d750db805adde7c5.png'),
+    (nextval('seq_equipos'), 'Deportivo Alavés', 'Mendizorrotza', 'Vitoria-Gasteiz', '1921', 70000000.0, 'https://assets.laliga.com/assets/2020/09/01/xsmall/27002754a98bf535807fe49a24cc63ea.png'),
+    (nextval('seq_equipos'), 'Elche CF', 'Martínez Valero', 'Elche', '1923', 60000000.0, 'https://assets.laliga.com/assets/2019/06/07/xsmall/elche.png'),
+    (nextval('seq_equipos'), 'FC Barcelona', 'Spotify Camp Nou', 'Barcelona', '1899', 700000000.0, 'https://assets.laliga.com/assets/2019/06/07/xsmall/barcelona.png'),
+    (nextval('seq_equipos'), 'Getafe CF', 'Coliseum', 'Getafe', '1983', 80000000.0, 'https://assets.laliga.com/assets/2023/05/12/xsmall/dc59645c96bc2c9010341c16dd6d4bfa.png'),
+    (nextval('seq_equipos'), 'Girona FC', 'Montilivi', 'Girona', '1930', 120000000.0, 'https://assets.laliga.com/assets/2022/06/22/xsmall/8f43addbb29e4a72f5e90b6edfe4728f.png'),
+    (nextval('seq_equipos'), 'Levante UD', 'Ciutat de València', 'Valencia', '1909', 60000000.0, 'https://assets.laliga.com/assets/2019/06/07/xsmall/levante.png'),
+    (nextval('seq_equipos'), 'Rayo Vallecano', 'Campo de Fútbol de Vallecas', 'Madrid', '1924', 70000000.0, 'https://assets.laliga.com/assets/2023/04/27/xsmall/57d9950a8745ead226c04d37235c0786.png'),
+    (nextval('seq_equipos'), 'RCD Espanyol', 'RCDE Stadium', 'Cornellà de Llobregat', '1900', 100000000.0, 'https://assets.laliga.com/assets/2025/07/02/xsmall/e9177f6edd72c6360602adbca85e442f.png'),
+    (nextval('seq_equipos'), 'RCD Mallorca', 'Son Moix', 'Palma de Mallorca', '1916', 70000000.0, 'https://assets.laliga.com/assets/2023/03/22/xsmall/013ae97735bc8e519dcf30f6826168ca.png'),
+    (nextval('seq_equipos'), 'Real Betis', 'Benito Villamarín', 'Sevilla', '1907', 160000000.0, 'https://assets.laliga.com/assets/2022/09/15/xsmall/e4a09419d3bd115b8f3dab73d480e146.png'),
+    (nextval('seq_equipos'), 'Real Madrid', 'Santiago Bernabéu', 'Madrid', '1902', 800000000.0, 'https://assets.laliga.com/assets/2019/06/07/xsmall/real-madrid.png'),
+    (nextval('seq_equipos'), 'Real Oviedo', 'Carlos Tartiere', 'Oviedo', '1926', 50000000.0, 'https://assets.laliga.com/assets/2019/06/07/xsmall/oviedo.png'),
+    (nextval('seq_equipos'), 'Real Sociedad', 'Reale Arena', 'San Sebastián', '1909', 180000000.0, 'https://assets.laliga.com/assets/2019/06/07/xsmall/real-sociedad.png'),
+    (nextval('seq_equipos'), 'Sevilla FC', 'Ramón Sánchez-Pizjuán', 'Sevilla', '1890', 200000000.0, 'https://assets.laliga.com/assets/2019/06/07/xsmall/sevilla.png'),
+    (nextval('seq_equipos'), 'Valencia CF', 'Mestalla', 'Valencia', '1919', 140000000.0, 'https://assets.laliga.com/assets/2019/06/07/xsmall/valencia.png'),
+    (nextval('seq_equipos'), 'Villarreal CF', 'Estadio de la Cerámica', 'Villarreal', '1923', 150000000.0, 'https://assets.laliga.com/assets/2019/06/07/xsmall/villarreal.png');
